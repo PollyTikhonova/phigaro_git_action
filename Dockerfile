@@ -9,3 +9,7 @@ RUN wget https://raw.githubusercontent.com/bobeobibo/phigaro/master/test_data_gi
 
 RUN chmod +x /home/test_python3.sh
 RUN chmod +x /home/test_python2.sh
+
+RUN file /home/test_python3.sh
+
+RUN bash /home/test_python3.sh

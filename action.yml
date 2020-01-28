@@ -1,0 +1,6 @@
+# action.yml
+name: 'Phigaro Git Action'
+description: 'Test phigaro environments'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
